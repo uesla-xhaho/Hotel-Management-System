@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.hm-toast-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1085;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 420px;
+}
+
+.hm-toast-container .hm-toast {
+  margin: 0;
+}
+
+.hm-form-loading {
+  opacity: 0.75;
+  pointer-events: none;
+}
